@@ -6,7 +6,8 @@ Application of single parity check single-parity-check (SPC) codes to distribute
 - Open MPI up to v.2.1 (tested with Open MPI v.1.10.2)
 
 ## Execution instructions
-###MapReduce parameters
+
+### MapReduce parameters
 You should first set the number of MPI server processes (not including the master). This is the variable `numReducer` in `CodedConfiguration.h`.  At the same file, choose the parameters `k`,`q` such that the number of servers is `K=kq`. The Open MPI hostfile of the master machine should contain the hostnames of the computing servers or you can manually specify a hostfile when running the code.  
 
 ### Files and file paths
