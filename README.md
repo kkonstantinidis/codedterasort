@@ -21,20 +21,13 @@ Run `mpirun -mca btl ^openib -mca plm_rsh_no_tree_spawn 1 ./InputPlacement` to s
 Run `mpirun -mca btl ^openib -mca plm_rsh_no_tree_spawn 1 ./CodedTeraSort` to execute the algorithm.
 
 ## Citation
-If you use this code, please cite our Globecom 2018 [paper](https://ieeexplore.ieee.org/document/8647133):
-
-  
+If you use this code, please cite our Globecom 2018 [paper](https://ieeexplore.ieee.org/document/8647133). The BibTeX is:
 ```
-@INPROCEEDINGS{8647133, 
-author={K. {Konstantinidis} and A. {Ramamoorthy}}, 
-booktitle={2018 IEEE Global Communications Conference (GLOBECOM)}, 
-title={Leveraging Coding Techniques for Speeding up Distributed Computing}, 
-year={2018}, 
-volume={}, 
-number={}, 
-pages={1-6}, 
-keywords={Servers;Task analysis;Sparks;Distributed databases;Protocols;3G mobile communication}, 
-doi={10.1109/GLOCOM.2018.8647133}, 
-ISSN={2576-6813}, 
-month={Dec},}
+@INPROCEEDINGS{konstantinidis_ramamoorthy_globecom, 
+author = {Konstantinos Konstantinidis and Aditya Ramamoorthy},
+title = {Leveraging Coding Techniques for Speeding up Distributed Computing},
+booktitle = {IEEE Global Communications Conference (GLOBECOM)},
+pages = {1--6},
+year = {2018},
+month = {December}}
 ```
