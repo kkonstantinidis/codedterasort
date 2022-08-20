@@ -23,7 +23,7 @@ Run `mpirun -mca btl ^openib -mca plm_rsh_no_tree_spawn 1 ./CodedTeraSort` to ex
 ## Citation
 If you use this code, please cite our Globecom 2018 [paper](https://ieeexplore.ieee.org/document/8647133). The BibTeX is:
 ```
-@INPROCEEDINGS{konstantinidis_ramamoorthy_globecom, 
+@inproceedings{konstantinidis_ramamoorthy_globecom, 
 author = {Konstantinos Konstantinidis and Aditya Ramamoorthy},
 title = {Leveraging Coding Techniques for Speeding up Distributed Computing},
 booktitle = {IEEE Global Communications Conference (GLOBECOM)},
